@@ -108,4 +108,5 @@ a    {
 button.yn    {
     font-size:16px;
     padding:14px 20px;
+    appearance:none;
 }
