@@ -106,5 +106,6 @@ a    {
     color:blue;
 }
 button    {
-    font-size:18px;
+    font-size:22px;
+    padding:8px 12px;
 }
