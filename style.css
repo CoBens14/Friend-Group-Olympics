@@ -28,6 +28,7 @@
   /* Format main paragraph text */
   p   {
     text-align: left;
+    font-size: 18px;
   }
   /* Format page headings */
   h1    {
@@ -35,6 +36,69 @@
   }
 /* Format rule subheadings */
 h3   {
+    text-align: left;
+    color:#EE2D24;
+    font-size: 20px;
+  }
+/* format photo on committee page*/
+#presphoto  {
+    height: 400px;
+    width:auto;
+    align-content: center;
+}
+/* format all main subheaders*/
+h2   {
     text-align: center;
     color:#EE2D24;
+    text-emphasis: bold;
+    font-size: 30px;
   }
+/* format all update date headings */
+h4   {
+    text-align: left;
+    color:#EE2D24;
+    text-emphasis: none;
+    font-size: 20px;
+  }
+
+ul{
+    font-size: 18px;
+}
+img.christmas   {
+    margin-left: auto;
+    margin-right: auto;
+    height:300px;
+    display: block;
+}
+iframe.survey   {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+a.text  {
+    font-size: 18px;
+    color:#0C0
+}
+h5  {
+    font-size: 18px;
+}
+img.imgbutton   {
+    height:200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+#olypic {
+    height:300px;
+    float:right;
+    
+
+}
+div.maintext    {
+    padding-right: 40%;
+}
+div.body    {
+    display: flex;
+  align-items: center;
+  justify-content: center
+}

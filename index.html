@@ -4,8 +4,8 @@
 <title>Friend Group Olympics</title>
 <link rel="stylesheet" type="text/css" href="style.css">
 
-<script src="path/to/script.js"></script>
 </head>
+<!--Nav Bar-->
 <div class="navbar">
 <a class="active" href="index.html">Home</a>
 <a href="schedule.html">Schedule</a>
@@ -16,8 +16,32 @@
 
 <body>
 <div class="mainbody">
-<h1 class="pgtitle">Friend Group Olympics</h1>
-<p>Welcome to the Friend Group Olympics homepage. Come back later for updates.</p>
+<!--Index Intro-->
+    <div class="imageindex"><img id="olypic" src="olympic-stadium.jpg"</div>
+    <h1 class="pgtitle">Friend Group Olympics</h1>
+    <div class="maintext"> 
+        <p>Welcome to the Friend Group Olympics homepage. This will be the home for all information pertaining
+        to the 2024 games, hosted at Grinnell College. The schedule of events is planned to take place throughout the spring
+        semester in 2024. The final event will take place sometime in late April or early May, at which point results will be 
+        finalized and a champion will be announced and celebrated at the closing ceremony. This website will continue to post 
+        updates as more information becomes available, so check back later for more information.</p>
+    </div>
+    <br>
+    <!--Excitement Button-->
+    <h5>Are you excited for the Olympics?</h5>
+    <button onclick=yesfunction()>Yes</button>
+    <button onclick=nofunction()>No</button>
+    <img id="imgbutton" class="imgbutton" src="question.png">
+    <br>
+    <script src="script.js"></script>
+<!--Everything below this will receive continuous updates-->
+    <h2>Updates</h2>
+    <h4>December 25</h4>
+    <p>Merry Christmas! The website has launched as we are four weeks out from the start of spring semester. The first order of
+    business for all visitors of this webpage is to complete the survey by January 2nd, which can be found on the 
+    <a class="text" href="survey.html">survey page.</a> After that, more updates will be posted with the time of the 
+    opening ceremony and the first couple of events added to the schedule.</p>
+    <img src="christmas.jpg" class="christmas">
 </div>
 </body>
 </html>
