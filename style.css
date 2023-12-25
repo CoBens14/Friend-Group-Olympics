@@ -105,7 +105,7 @@ div.body    {
 a    {
     color:blue;
 }
-button    {
-    font-size:24px;
+button.yn    {
+    font-size:28px;
     padding:10px 14px;
 }
