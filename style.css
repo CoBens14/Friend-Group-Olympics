@@ -131,6 +131,6 @@ tr.odd {
 tr.even  {
   background-color: #ddd;
 }
-p.center  {
+.center  {
   text-align: center;
 }
