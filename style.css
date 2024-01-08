@@ -64,7 +64,7 @@ h4   {
 ul{
     font-size: 18px;
 }
-img.christmas   {
+img.update   {
     margin-left: auto;
     margin-right: auto;
     height:300px;
@@ -109,4 +109,28 @@ button.yn    {
     font-size:16px;
     padding:14px 20px;
     appearance:none;
+}
+#scheduletb {
+  border: 1px solid;
+}
+tr  {
+  border: 1px;
+  padding: 4px;
+}
+td  {
+  border: 1px;
+  padding: 4px;
+}
+th  {
+  border: 1px;
+  padding: 4px;
+}
+tr.odd {
+  background-color: #EE2D24;
+}
+tr.even  {
+  background-color: #ddd;
+}
+p.center  {
+  text-align: center;
 }
