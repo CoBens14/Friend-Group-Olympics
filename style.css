@@ -28,11 +28,11 @@
   /* Format main paragraph text */
   p   {
     text-align: left;
-    font-size: 18px;
+    font-size: 20px;
   }
   /* Format page headings */
   h1    {
-    text-align: left;
+    text-align: center;
   }
 /* Format rule subheadings */
 h3   {
@@ -88,14 +88,17 @@ img.imgbutton   {
     margin-right: auto;
     display: block;
 }
-#olypic {
-    height:300px;
-    float:right;
-    
 
+#olympic {
+    height:400px;  
+    display:block;
+    margin:auto;
 }
 div.maintext    {
-    padding-right: 40%;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 20px
 }
 div.body    {
     display: flex;
@@ -134,3 +137,4 @@ tr.even  {
 .center  {
   text-align: center;
 }
+
