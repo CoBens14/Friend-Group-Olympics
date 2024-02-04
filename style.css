@@ -137,4 +137,9 @@ tr.even  {
 .center  {
   text-align: center;
 }
-
+.standings  {
+  height:300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
