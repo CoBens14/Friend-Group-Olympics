@@ -143,3 +143,6 @@ tr.even  {
     margin-right: auto;
     display: block;
 }
+#pool {
+  height: 450px;
+}
