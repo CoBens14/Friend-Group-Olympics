@@ -146,3 +146,13 @@ tr.even  {
 #pool {
   height: 450px;
 }
+
+.hideupdates  {
+  display:none;
+}
+
+#updatebutton    {
+  font-size:16px;
+  padding:14px 20px;
+  appearance:none;
+}
